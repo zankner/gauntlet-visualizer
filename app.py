@@ -60,7 +60,7 @@ with col2:
     selected_metrics = st.multiselect(
         'Select metrics to compare',
         list(md_df.columns),
-        default=list(md_df.columns)[1:]
+        default=list(md_df.columns)
     )
 
 # restrict the dataframe to the selected models and metrics
